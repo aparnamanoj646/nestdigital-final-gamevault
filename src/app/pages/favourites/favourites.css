@@ -1,0 +1,63 @@
+:host{
+    display:block;
+    min-height:100vh;
+    background:#070b17;
+    padding:40px;
+    color:white;
+}
+
+h1{
+    font-size:35px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.fav-subtitle{
+    color:#94a3b8;
+    margin-bottom:30px;
+}
+
+.row{
+    margin-top:20px;
+}
+
+.empty-section{
+    text-align:center;
+    margin-top:80px;
+}
+
+.empty-heart{
+    font-size:70px;
+    color:#ff4d8d;
+    margin-bottom:15px;
+}
+
+.empty-section h3{
+    color:white;
+    margin-bottom:10px;
+}
+
+.empty-section p{
+    color:#94a3b8;
+}
+
+.explore-btn{
+    background:#8b5cf6;
+    border:none;
+    color:white;
+    padding:12px 25px;
+    border-radius:10px;
+    margin-top:15px;
+}
+
+.explore-btn,
+.explore-btn:link,
+.explore-btn:visited,
+.explore-btn:hover,
+.explore-btn:active{
+    text-decoration:none !important;
+    color:white;
+}
+.explore-btn:hover{
+    background:#7c3aed;
+}

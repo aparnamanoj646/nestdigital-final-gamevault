@@ -1,0 +1,44 @@
+.custom-navbar {
+    background: #0f172a;
+    padding: 15px 0;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.4);
+}
+
+.logo {
+    color: #8b5cf6 !important;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+    margin: 0 10px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #8b5cf6 !important;
+}
+
+.active {
+    color: #8b5cf6 !important;
+}
+
+.search-box {
+    background: #1e293b;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 8px 15px;
+}
+
+.search-box::placeholder {
+    color: #94a3b8;
+}
+
+.search-box:focus {
+    background: #1e293b;
+    color: white;
+    box-shadow: 0 0 10px #8b5cf6;
+}

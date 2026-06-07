@@ -1,0 +1,136 @@
+.contact-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, #0a0f1f, #05060d);
+  padding: 30px;
+}
+
+.contact-card {
+  width: 950px;
+  display: flex;
+  border-radius: 18px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 25px 70px rgba(0,0,0,0.7);
+}
+
+.contact-left {
+  flex: 1;
+  padding: 45px;
+  position: relative;
+  background: linear-gradient(135deg, #0f0a2a, #050611);
+  color: white;
+}
+
+.soft-glow {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: #a855f7;
+  filter: blur(130px);
+  opacity: 0.25;
+  top: -60px;
+  left: -60px;
+}
+
+.contact-left h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #cbd5e1;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+
+.divider {
+  width: 60px;
+  height: 2px;
+  background: #a855f7;
+  margin-bottom: 25px;
+}
+
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.info-item {
+  padding-left: 12px;
+  border-left: 2px solid rgba(168,85,247,0.5);
+  transition: 0.3s;
+}
+
+.info-item:hover {
+  transform: translateX(5px);
+  border-left: 2px solid #a855f7;
+}
+
+.info-item span {
+  font-size: 12px;
+  color: #a855f7;
+}
+
+.info-item p {
+  margin: 2px 0 0;
+  color: #e5e7eb;
+}
+
+
+.contact-right {
+  flex: 1;
+  padding: 45px;
+  background: rgba(0,0,0,0.4);
+}
+
+.contact-right h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+
+.contact-right input,
+.contact-right textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.05);
+  color: white;
+  outline: none;
+  transition: 0.3s;
+}
+
+.contact-right input:focus,
+.contact-right textarea:focus {
+  border-color: #a855f7;
+  box-shadow: 0 0 10px rgba(168,85,247,0.2);
+}
+
+
+.contact-right button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #a855f7, #7c3aed);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-right button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(168,85,247,0.4);
+}

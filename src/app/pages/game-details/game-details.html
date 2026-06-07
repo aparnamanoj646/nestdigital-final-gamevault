@@ -1,0 +1,89 @@
+<div class="details-page">
+
+  <div class="breadcrumb">
+    Home > Games > {{gamedetails.title}}
+  </div>
+
+  <div class="top-section">
+
+    <div class="left-side">
+      <img [src]="gamedetails.thumbnail" class="main-image">
+    </div>
+
+    <div class="right-side">
+
+      <h1>{{gamedetails.title}}</h1>
+
+      <div class="tags">
+        <span>{{gamedetails.genre}}</span>
+        <span>Free To Play</span>
+        <span>{{gamedetails.platform}}</span>
+      </div>
+
+      <div class="rating">
+        ⭐⭐⭐⭐⭐ <span>4.5 (12.4K)</span>
+      </div>
+
+      <p class="description">
+        {{gamedetails.short_description}}
+      </p>
+
+      <div class="info-grid">
+        <div>
+          <strong>Developer</strong>
+          <p>{{gamedetails.developer}}</p>
+        </div>
+
+        <div>
+          <strong>Publisher</strong>
+          <p>{{gamedetails.publisher}}</p>
+        </div>
+
+        <div>
+          <strong>Platform</strong>
+          <p>{{gamedetails.platform}}</p>
+        </div>
+
+        <div>
+          <strong>Release Date</strong>
+          <p>{{gamedetails.release_date}}</p>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <a [href]="gamedetails.game_url"
+           target="_blank"
+           class="play-btn">
+           ▶ Play Now
+        </a>
+
+       <button class="fav-btn" (click)="addToFavorites()">
+  ❤️ Add to Favorites
+</button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="screenshots-section">
+
+    <div class="screen-header">
+      <h2>Screenshots</h2>
+    </div>
+
+    <div class="screenshots">
+
+      <img [src]="gamedetails.thumbnail">
+
+      <img [src]="gamedetails.thumbnail">
+
+      <img [src]="gamedetails.thumbnail">
+
+      <img [src]="gamedetails.thumbnail">
+
+    </div>
+
+  </div>
+
+</div>

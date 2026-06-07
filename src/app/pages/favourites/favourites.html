@@ -1,0 +1,36 @@
+<div class="container">
+
+  <h1>MY FAVORITES</h1>
+
+  <p class="fav-subtitle">
+    Home > Favorites
+  </p>
+
+  <div class="row">
+
+    @for (item of data; track item.id) {
+
+      <div class="col-md-3 mb-4">
+        <app-card1 [game]="item"></app-card1>
+      </div>
+
+    }
+
+  </div>
+
+  <div class="empty-section">
+
+    <div class="empty-heart">♡</div>
+
+    <h3>No more favorites yet</h3>
+
+    <p>
+      Explore games and add your favorites by clicking the heart icon.
+    </p>
+
+  <a routerLink="/games" class="explore-btn">
+  Explore Games
+</a>
+  </div>
+
+</div>

@@ -1,0 +1,64 @@
+
+.carousel{
+    margin:30px;
+    border-radius:25px;
+    overflow:hidden;
+}
+
+.banner-img{
+    height:500px;
+    object-fit:cover;
+    filter:brightness(45%);
+}
+
+.custom-caption{
+    text-align:left;
+    left:8%;
+    bottom:18%;
+    right:auto;
+    max-width:550px;
+}
+
+.custom-caption h1{
+    font-size:65px;
+    font-weight:800;
+    line-height:1.1;
+    color:white;
+}
+
+.custom-caption h1 span{
+    color:#a855f7;
+}
+
+.custom-caption p{
+    color:white;
+    font-size:20px;
+    margin-top:15px;
+    margin-bottom:25px;
+}
+
+.btn-purple{
+    background:#8b5cf6;
+    color:white;
+    border:none;
+    padding:12px 24px;
+    border-radius:10px;
+    margin-right:10px;
+}
+
+.btn-purple,
+.btn-purple:link,
+.btn-purple:visited,
+.btn-outline,
+.btn-outline:link,
+.btn-outline:visited{
+    text-decoration: none !important;
+    color: white;
+}
+.btn-outline{
+    background:transparent;
+    color:white;
+    border:1px solid white;
+    padding:12px 24px;
+    border-radius:10px;
+}

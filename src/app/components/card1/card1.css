@@ -1,0 +1,18 @@
+.card{
+    background:#101828 !important;
+    border:none;
+    color:white;
+}
+
+.card-body{
+    background:#101828 !important;
+    color:white;
+}
+
+.card-title{
+    color:white;
+}
+
+.card-text{
+    color:#8b5cf6;
+}
